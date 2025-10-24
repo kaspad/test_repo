@@ -1,0 +1,26 @@
+{
+  "name": "aloitus",
+  "version": "1.0.0",
+  "description": "Aloituspohja",
+  "scripts": {
+    "test": "webpack --watch"
+  },
+  "author": "Esa Niemi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
